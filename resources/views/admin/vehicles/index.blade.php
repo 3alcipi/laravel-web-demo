@@ -50,8 +50,8 @@
 </div>  
 
 {{-- Modal --}}
-@include('admin.Vehicles.partials.modal')
-@include('admin.Vehicles.partials.viewModal')
+@include('admin.vehicles.partials.modal')
+@include('admin.vehicles.partials.viewModal')
    
 @stop
 
