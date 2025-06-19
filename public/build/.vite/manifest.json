@@ -5,8 +5,50 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
+  "resources/js/pages/brand.js": {
+    "file": "assets/brand-D-TaH_ta.js",
+    "name": "brand",
+    "src": "resources/js/pages/brand.js",
+    "isEntry": true
+  },
+  "resources/js/pages/price.js": {
+    "file": "assets/price-BNR6f730.js",
+    "name": "price",
+    "src": "resources/js/pages/price.js",
+    "isEntry": true
+  },
+  "resources/js/pages/reservation.js": {
+    "file": "assets/reservation-wwp4ENQR.js",
+    "name": "reservation",
+    "src": "resources/js/pages/reservation.js",
+    "isEntry": true
+  },
+  "resources/js/pages/roles.js": {
+    "file": "assets/roles-DyUa0Pf7.js",
+    "name": "roles",
+    "src": "resources/js/pages/roles.js",
+    "isEntry": true
+  },
+  "resources/js/pages/type.js": {
+    "file": "assets/type-rdmjkr3S.js",
+    "name": "type",
+    "src": "resources/js/pages/type.js",
+    "isEntry": true
+  },
+  "resources/js/pages/user.js": {
+    "file": "assets/user-BNwfBpGn.js",
+    "name": "user",
+    "src": "resources/js/pages/user.js",
+    "isEntry": true
+  },
+  "resources/js/pages/vehicle.js": {
+    "file": "assets/vehicle-PlSRZpBQ.js",
+    "name": "vehicle",
+    "src": "resources/js/pages/vehicle.js",
+    "isEntry": true
+  },
   "resources/sass/app.scss": {
-    "file": "assets/style-wO4EqYCH.css",
+    "file": "assets/app-wO4EqYCH.css",
     "src": "resources/sass/app.scss",
     "isEntry": true
   }

@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#tableUser").DataTable({processing:!0,serverSide:!0,ajax:window.routes.usersList,columns:[{data:"DT_RowIndex",name:"DT_RowIndex"},{data:"id",name:"id"},{data:"name",name:"name"},{data:"email",name:"email"},{data:"acciones",name:"acciones",orderable:!1,searchable:!1}],responsive:!0})});

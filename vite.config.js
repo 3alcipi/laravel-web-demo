@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import fg from 'fast-glob';
 
 export default defineConfig({
     plugins: [
@@ -7,6 +8,7 @@ export default defineConfig({
             input: [
                 'resources/sass/app.scss',
                 'resources/js/app.js',
+                ...fg.sync('resources/js/pages/**/*.js'), // 🔥 Agrega todos los scripts JS de "pages"
             ],
             refresh: true,
         }),
@@ -14,11 +16,6 @@ export default defineConfig({
     build: {
         manifest: true,
         outDir: 'public/build',
-        rollupOptions: {
-            input: {
-                app: 'resources/js/app.js',
-                style: 'resources/sass/app.scss',
-            },
-        },
+        emptyOutDir: true, // 🔄 Limpia antes de compilar
     },
 });
